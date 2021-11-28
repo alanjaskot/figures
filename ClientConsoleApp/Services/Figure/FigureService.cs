@@ -22,7 +22,9 @@ namespace ClientConsoleApp.Services.Figure
             _httpClient = new HttpClient();
             _httpClient.BaseAddress = new Uri(baseAddress);
             _httpClient.DefaultRequestHeaders.Add("Accept", "application/json");
-            _httpClient.DefaultRequestHeaders.Add("Authorization", Helpers.Header);
+            string header = Helpers.Header;
+            if(header != null)
+                _httpClient.DefaultRequestHeaders.Add("Authorization", header);
         }
 
         public bool AddFigure(FigureModel figure)
