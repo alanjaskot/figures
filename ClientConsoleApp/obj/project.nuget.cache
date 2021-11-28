@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jV4079VTLSJd/adcO+/fLw1ZQaaFdo4g8+2CYQ0NqKbUGd5uZsrtJLZMzhYntHdV6uG9I4hXapwZsTQm9erbqA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alanj\\source\\repos\\ClientConsoleApp\\ClientConsoleApp\\ClientConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alanj\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
